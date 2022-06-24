@@ -1,5 +1,5 @@
 apt update
-apt install libpcre3 libpcre3-dev build-essential libtool zlib1g-dev openssl libssl-dev -y
+apt install libpcre3 libpcre3-dev build-essential libtool zlib1g-dev openssl  ffmpeg libssl-dev -y
 
 ./configure --prefix=/etc/nginx \
             --sbin-path=/usr/sbin \
